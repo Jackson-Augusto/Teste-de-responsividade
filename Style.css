@@ -1,0 +1,151 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 46px;
+
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.link-header:hover {
+    opacity: .8;
+    color: #665AE1;
+
+}
+
+.button-header {
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button-header:hover {
+    border-radius: 10px;
+    transition: 200ms;
+    transform: scale(1.15);
+
+}
+
+.baner-petshop {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.button-explore {
+    border-radius: 25px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, -0, -0, 0.25));
+}
+
+.button-explore:hover {
+    transform: scale(1.10);
+    border-radius: 8px;
+    transition: 200ms;
+    color: #FFF;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .baner-petshop {
+        padding: 0;
+        width: 354px;
+        height: 317px;
+        margin: 0 22px;
+        padding: 10px;
+
+    }
+
+    h1 {
+        color: #515151; 
+        font-size: 50px;
+        font-weight: 900px;
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        margin: 0;
+
+    }
+
+    h2 {
+        color: #515151;
+        font-size: 30px;
+        font-weight: 500px;
+        margin: 17px 0;
+    }
+
+    p {
+        display: none;
+
+    }
+
+
+
+}
